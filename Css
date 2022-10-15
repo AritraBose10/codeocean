@@ -1,0 +1,18 @@
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 420px) {
+  .calculator {
+    width: 12em;
+  }
+  .viewer {
+    width: 8.5em;
+  }
+  button {
+    margin: 0.5em;
+  }
+}
