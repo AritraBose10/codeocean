@@ -1,25 +1,64 @@
-/*
-TODO:
-    Limit number input
-    Disallow . from being entered multiple times
-    Clean up structure
-*/
+$(document).ready(function(){
+  $('#signin_btn').click(function(){
+      var bt_box_object = bootbox.dialog({
+        title: 'Please Sign In',
+        closeButton: false,
+        message: $('#login_form').html(),
+        buttons: {
+          ok: {
+            label: 'Sign In',
+            callback: function(){
+              bt_box_object.modal('hide')
+            }
+          }
+        }
+      }
+    );
+  });
+});
+    
 
-(function() {
-  "use strict";
+    
+ 
 
-  // Shortcut to get elements
-  var el = function(element) {
-    if (element.charAt(0) === "#") { // If passed an ID...
-      return document.querySelector(element); // ... returns single element
-    }
+  
+  
 
-    return document.querySelectorAll(element); // Otherwise, returns a nodelist
-  };
+    
+    
+    
 
-  // Variables
-  var viewer = el("#viewer"), // Calculator screen where result is displayed
-    equals = el("#equals"), // Equal button
-    nums = el(".num"), // List of numbers
-    ops = el(".ops"), // List of operators
-    theNum = "", // Current number
+
+  
+
+      
+
+        
+
+       
+
+        
+
+        
+
+          
+
+            
+
+            
+
+              
+
+            
+
+          
+
+        
+
+      
+
+    
+
+  });
+
+});
