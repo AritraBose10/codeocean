@@ -1,18 +1,41 @@
-  }
-  
-  100% {
-    opacity: 1;
-  }
+ body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 420px) {
-  .calculator {
-    width: 12em;
-  }
-  .viewer {
-    width: 8.5em;
-  }
-  button {
-    margin: 0.5em;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("./img/bg-masthead.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem; 
+
+  
+    
+ 
+
+
+
+  
+    
+  
+  
+    
+  
+  
+    
+  
+
