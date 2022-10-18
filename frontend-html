@@ -1,18 +1,25 @@
-<h1>JavaScript Calculator</h1>
-<p class="warning">Don't divide by zero</p>
+<html lang="en">
 
-<div id="calculator" class="calculator">
+  <body>
 
-  <button id="clear" class="clear">C</button>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <div id='signin_btn' class="btn btn-primary">Sign In</div>
+      </div>
+    </nav>
 
-  <div id="viewer" class="viewer">0</div>
-
-  <button class="num" data-num="7">7</button>
-  <button class="num" data-num="8">8</button>
-  <button class="num" data-num="9">9</button>
-  <button data-ops="plus" class="ops">+</button>
-
-  <button class="num" data-num="4">4</button>
-  <button class="num" data-num="5">5</button>
-  <button class="num" data-num="6">6</button>
-  <button data-ops="minus" class="ops">-</button>
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+ 
